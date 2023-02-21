@@ -1,0 +1,112 @@
+/*
+ * Globals
+ */
+html{
+  scroll-padding-top: 80px;
+}
+ body {
+ 
+  font-family: 'Poppins', sans-serif !important;
+}
+
+.color-212529{
+  color: #212529;
+}
+.color-999{
+  color: #999;
+}
+
+/* -------------------------Navbar---------------------------------------- */
+.navbar-dark{
+  background-color: none;
+  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+  transition:0.5s;
+}
+/* Navbar Dark */
+.navbar-dark .nav-link,
+.navbar-dark.nav-link:focus, .navbar-dark.nav-link:hover,.navbar-dark.nav-link:active{
+  color: whitesmoke;
+}
+
+.navbar-dark.navbar-brand h3{
+  color: whitesmoke;
+}
+
+/* Navbar Light */
+.navbar-light {
+  background-color: whitesmoke ;
+  transition:0.5s; 
+  box-shadow: 0 2px 2px -2px rgba(0,0,0,.4);
+}
+.navbar-light .nav-link,
+.navbar-light.nav-link:focus,.navbar-light .nav-link:hover,.navbar-light.nav-link:active{
+  color: #212529;
+}
+.navbar-light .navbar-brand h3{
+  color: #212529;
+}
+
+.bg-dark{
+  color: #212529;
+}
+
+/* -------------------------Navbar Ends---------------------------------------- */
+
+/* --------------------------Landing Page Hero Section ------------------------------*/
+
+
+.bd-placeholder-img {
+  background-image: url("./assets/images/lambo-aven-black-hero.jpg");
+  background-size: cover;
+  z-index: -99;
+  
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  }
+
+.color-ws{
+  color: whitesmoke;
+ 
+}
+
+
+.hero-text{
+  position: absolute;
+  top: 40%;
+  left: 15%;
+  animation: fadeOut;
+}
+
+
+/* --------------------------Luxury Car Rental Description------------------------------------- */
+
+.luxury-desc-div{
+  text-align: center;
+}
+
+.luxury-description{
+  text-align: center;
+  max-width: 1100px;
+  line-height: 1.7;
+  font-size: 1.1rem;
+  letter-spacing: 0.35px;
+}
+  
+.border-bottom-red{
+  border-bottom: 2px solid red;
+  border-radius: 2px;
+}
+
+
+/* ---------------------------------------Features------------------------------------------------ */
+
+.feature-div{ 
+  
+  box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+   
+}
