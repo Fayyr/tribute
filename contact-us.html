@@ -21,7 +21,7 @@
     <!-- ---Navbar--- -->
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark" id = "scroll-navbar">
       <div class="container nav-container">
-        <a class="navbar-brand" href="#"><h3>Tribute</h3></a>
+        <a class="navbar-brand" href="./index.html"><h3>Tribute</h3></a>
         <button
           class="navbar-toggler"
           type="button"
@@ -46,9 +46,9 @@
             <li class="nav-item">
               <a class="nav-link fw-semibold py-1 px-2" href="./index.html">Services</a>
             </li>
-            <!-- <li class="nav-item">
-              <a class="nav-link fw-semibold py-1 px-2" href="#">Models</a>
-            </li> -->
+            <li class="nav-item">
+              <a class="nav-link fw-semibold py-1 px-2" href="./models.html">Models</a>
+            </li>
             <li class="nav-item">
               <a class="nav-link fw-semibold py-1 px-2" href="#" style="color: red;">Book Now</a>
             </li>
@@ -73,36 +73,41 @@
             Contact Us
         </div>
       <!-- Name input -->
-      <div class="mb-3 col-4">
-        <label class="form-label" for="name">Name</label>
+      <div class="mb-3 col-5">
+        <label class="form-label mx-2" for="name">Name</label>
         <input class="form-control" id="name" type="text" placeholder="Name" />
       </div>
   
       <!-- Email address input -->
-      <div class="mb-3 col-4">
-        <label class="form-label" for="emailAddress">Email Address</label>
+      <div class="mb-3 col-5">
+        <label class="form-label mx-2" for="emailAddress">Email Address</label>
         <input class="form-control" id="emailAddress" type="email" placeholder="Email Address" />
       </div>
   
       <!-- Message input -->
-      <div class="mb-5">
-        <label class="form-label" for="message">Message</label>
+      <div class="mb-5 col-10">
+        <label class="form-label mx-2" for="message">Message</label>
         <textarea class="form-control" id="message" type="text" placeholder="Message" style="height: 10rem;"></textarea>
       </div>
   
       <!-- Form submit button -->
-      <div class="d-grid mb-5">
+      <div class="d-grid mb-5 col-10">
         <button class="btn btn-danger btn-lg" type="submit">Submit</button>
       </div>
   
     </form>
 </div>
 
-<div class="col-md-6 my-5">
+<div class="col-md-6">
+  
+  <div class="display-5 col-10 mb-4">
+    Our Location
+</div>
 <div id="map-container-google-1" class="z-depth-1-half map-container">
     <iframe src="https://maps.google.com/maps?q=manhatan&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
       style="border:0" allowfullscreen></iframe>
   </div>
+  
   
 </div>
 

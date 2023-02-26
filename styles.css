@@ -127,3 +127,24 @@ html{
   width:100%;
   position:absolute;
 }
+
+/* ------------------Jumbotron---------------------- */
+.jumbotron{
+  position: relative;
+}
+#video-background {
+    z-index: -99;
+    object-fit: cover;
+    overflow: hidden;
+    
+    width: 100%;
+    max-height: 350px;
+}
+
+#book-now-btn{
+  padding: 1rem 1.7rem 1rem 2rem;
+  background-color: red;
+  border: none;
+  color:whitesmoke;
+  font-weight: 600;
+}
