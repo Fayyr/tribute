@@ -11,15 +11,14 @@
   .color-212529{
     color: #212529;
   }
-  .color-999{
-    color: #999;
+  .color-333{
+    color: #333;
   }
   
   /* -------------------------Navbar---------------------------------------- */
   
   /* Navbar Dark */
   .navbar-dark{
-    background-color: none;
     text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
     transition:0.5s;
   }
@@ -32,22 +31,10 @@
     color: whitesmoke;
   }
   .bg-dark{
-    background: black;
+    background-color: black !important;
   }
-  /* Navbar Light */
-  .navbar-light {
-    position: absolute;
-    background-color: whitesmoke ;
-    transition:0.5s; 
-    box-shadow: 0 2px 2px -2px rgba(0,0,0,.4);
-  }
-  .navbar-light .nav-link,
-  .navbar-light.nav-link:focus,.navbar-light .nav-link:hover,.navbar-light.nav-link:active{
-    color: #212529;
-  }
-  .navbar-light .navbar-brand h3{
-    color: #212529;
-  }
+  
+  
   
   
   /* -------------------------Navbar Ends---------------------------------------- */

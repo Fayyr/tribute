@@ -6,3 +6,4 @@ export class Cars{
     seats! :number;
     logoSvg ! : string;
 }
+
