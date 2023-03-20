@@ -14,6 +14,7 @@ export class LoginComponent {
   users : User[] = [];
 
   login(userName:string,password :string){
+    alert("Logged In Successfully");
     this.users = this.loginService.getAllUsersDetails();
 
     for(let user of this.users){
