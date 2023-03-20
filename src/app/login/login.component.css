@@ -8,7 +8,6 @@ body {
     color: black;
     padding-top: 200px;
     
-    font-weight: 700;
   }
   .effect7
 {   background-color: white;
@@ -16,4 +15,7 @@ body {
     -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
        -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
             box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+.bg-dark{
+  background-color : black !important;
 }
